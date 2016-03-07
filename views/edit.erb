@@ -1,0 +1,26 @@
+<div class="forms">
+<h2> Edit Bookmark</h2>
+
+<form action='/bookmarker/<%= @bookmark.id %>' method='post'>
+  <ul>
+  <li>
+    <label>Name:</label>
+    <input type="text" name="name" value="<%= @bookmark.name  %>">
+  </li>
+  <li>
+    <label>Url:</label>
+    <input type="text" name="url" value= "<%= @bookmark.url %>">
+  </li>
+  <li>
+    <label>Genre:</label>
+    <input type="text" name="genre" value="<%= @bookmark.genre %>">
+  </li>
+  <li>
+    <label>Description</label>
+    <input type="text" name="description" value="<%= @bookmark.description %>">
+  </li>
+  
+    <input type="submit" value="Update">
+  </ul>
+</form>
+</div>

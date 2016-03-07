@@ -1,0 +1,318 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+    background-image: url("http://cdn.mhpbooks.com/uploads/2015/06/books.jpg");
+    background-repeat: no-repeat;
+  padding-bottom: 0px;
+  height: 100%;
+
+}
+
+header {
+  height: 130px;
+  background-color: rgba(0,0,0,.6);
+  font-size: 3em;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: 'Poiret One', cursive;
+  border-bottom-color: rgba(1,34,4,.4);
+  border-bottom-style: solid ;
+  border-bottom-width: 5px;
+
+
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 65px;
+  padding-top: 20px;
+}
+
+ h2{
+  margin-top: 0;
+  padding-top: 20px
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:visted {
+  color: white;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+section {
+  margin: 0px;
+  height: 100%;
+ }
+
+footer{
+  background-color: rgba(0,0,0,.6);
+  font-size: 13px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  border-top-color: rgba(1,34,4,.4);
+  border-top-style: solid ;
+  border-top-width: 5px;
+  position: absolute;
+  width: 100%;
+  bottom:0;
+
+}
+
+
+
+.wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.forms {
+  margin: 10 auto;
+  width: 300px;
+  padding-top: 30px;
+  padding-right: 70px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  background-color: rgba(0,0,0,.6);
+  border-style: solid;
+  border-color: rgba(64, 224, 208, .3);
+  border-width: 1px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #888888;
+  margin-left: 10px;
+
+
+}
+
+.forms ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 2px
+}
+
+
+.forms h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 0px  3px black;
+  padding-left: 10px;
+  font-family: 'Poiret One', cursive;
+  padding-left: 30px;
+}
+
+
+
+input[type="submit"] {
+    width: 150px;
+    padding: 5px;
+    margin: 10px 0;
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgba(196,36,36,.9);
+    border-radius: 8px;
+    color: white;
+    text-shadow: 1px 0px 2px rgba(0,0,0,.5);
+    font-size: 1.6em;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #888888;
+    border: none;
+}
+
+input[type="submit"]:hover{
+  background-color: rgba(160,36,36,.9);
+  color:lightgrey;
+  box-shadow: none;
+}
+
+.showforms ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  width: 150px;
+  font-size: 18px;
+  padding: 5px;
+  background-color: rgba(255,255,255,.8);
+
+}
+
+label {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.showforms {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0,0,0,.6);
+  border-style: solid;
+  border-color: rgba(64, 224, 208, .3);
+  border-width: 1px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #888888;
+
+}
+
+.showforms p {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.5em;
+font-weight: 400;
+color: white;  
+text-align: center;
+
+}
+
+.showforms b{
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;  
+  color: DarkGrey;
+  padding-left: 20px;
+ 
+}
+
+.showforms1 h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+  font-size: 2em;
+}
+.showforms1 h2 {
+  color: white;
+ 
+}
+.showforms1 {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  background-color: rgba(0,0,0,.6);
+  border-style: solid;
+  border-color: rgba(64, 224, 208, .3);
+  border-width: 1px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #888888;
+
+}
+
+.showforms1 p {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1em;
+font-weight: 400;
+color: white;  
+text-align: center;
+
+}
+
+.showforms1 b{
+  font-family: 'Poiret One', cursive;
+  font-size: 1.4em;  
+  color: DarkGrey;
+  padding-left: 20px;
+ 
+}
+
+.showforms1 h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+  font-size: 2em;
+}
+.showforms1 h2 {
+  color: white;
+ 
+}
+
+.indexforms {
+  display:inline-block;
+  color: white;
+  margin: 0 auto;
+  width: 190px;
+  height: 190px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(0,0,0,.6);
+  border-style: solid;
+  border-color: rgba(64, 224, 208, .3);
+  border-width: 1px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #888888;
+  margin: 10px;
+}
+.indexforms h2{
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+
+}
+
+.indexforms h3{
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .6em;
+
+}
+.indexforms a {
+  padding-left: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.indexforms input[type="submit"]{
+  width: 50px;
+  padding: 5px;
+  margin: 0px 0;
+  margin-top: 5px;
+  height: 30px;
+  background-color: rgba(196,36,36,.9);
+  border-radius: 8px;
+  color: white;
+  text-shadow: 1px 0px 2px rgba(0,0,0,.5);
+  font-size: .5em;
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  box-shadow: 1px 1px 10px #888888;
+  border: none;
+  margin-left: 70px;  
+}
+
+.indexforms input[type="submit"]:hover{
+  background-color: rgba(160,36,36,.9);
+  color:lightgrey;
+  box-shadow: none;
+}
+
+.temp{
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+

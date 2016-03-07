@@ -1,0 +1,24 @@
+<div class="showforms">
+<b>Name:</b>
+<p><%= @bookmark.name %></p>
+
+<b>URL:</b>
+<p><%= @bookmark.url %></p>
+
+<b>Description:</b>
+<p><%= @bookmark.description %></p>
+
+
+  <ul>
+    <li>
+    <form action='/bookmarker/<%= @bookmark.id %>/edit' method="get">
+    <input type='submit' value="Edit">
+    </form>
+    </li>
+    <li>
+    <form action="/bookmarker/<%= @bookmark.id %>/delete" method="post">
+    <input type = "submit" value="Delete">
+  </form>
+  </li>
+  </ul>
+</div>
